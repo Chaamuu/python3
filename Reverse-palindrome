@@ -1,0 +1,13 @@
+i=845
+ci=i
+rev=0
+
+while(ci>0):
+    mod=ci%10
+    rev=mod+rev*10
+    ci=ci//10
+
+if(i==rev):
+    print("Palindrome")
+else:
+    print("Not Palindrome")
