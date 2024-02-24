@@ -1,0 +1,23 @@
+//sum of individula digita
+i =153
+ci=i
+sum=0
+
+while (ci>0):
+    mod=ci%10
+    sum+=mod
+    ci=ci//10
+    
+print(sum)
+
+//individual pro
+i =153
+ci=i
+pro=1
+
+while (ci>0):
+    mod=ci%10
+    pro*=mod
+    ci=ci//10
+    
+print(pro)
